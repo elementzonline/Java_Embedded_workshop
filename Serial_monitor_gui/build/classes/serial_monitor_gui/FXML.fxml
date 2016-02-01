@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="220.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="serial_monitor_gui.FXMLController">
+   <children>
+      <AnchorPane layoutX="2.0" prefHeight="232.0" prefWidth="500.0">
+         <children>
+            <Button fx:id="coonect" layoutX="210.0" layoutY="14.0" mnemonicParsing="false" onAction="#button_action" text="Connect" />
+            <ComboBox fx:id="comport_box" layoutX="34.0" layoutY="14.0" prefWidth="150.0" />
+            <TextArea fx:id="text1" layoutX="287.0" layoutY="17.0" prefHeight="200.0" prefWidth="200.0" />
+            <TextArea fx:id="text2" layoutX="26.0" layoutY="63.0" prefHeight="99.0" prefWidth="238.0" />
+            <Button fx:id="send" layoutX="83.0" layoutY="179.0" mnemonicParsing="false" onAction="#button_send" text="Send" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
